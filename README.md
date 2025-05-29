@@ -1,7 +1,3 @@
-from pathlib import Path
-
-# Define the README content
-readme_content = """
 # Smart Waste Route Planner
 
 An intelligent web application designed to optimize waste collection routes, aiming to reduce fuel consumption and enhance operational efficiency in urban waste management.
@@ -97,10 +93,3 @@ This project is licensed under the [MIT License](LICENSE).
 For inquiries or feedback:
 
 - **GitHub**: [YasiruLaki](https://github.com/YasiruLaki)
-"""
-
-# Save the content to a README.md file
-readme_path = Path("/mnt/data/README.md")
-readme_path.write_text(readme_content.strip())
-
-readme_path.name
