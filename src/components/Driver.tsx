@@ -284,7 +284,7 @@ const DriverPortal: React.FC = () => {
                 title="Driver's Starting Location"
                 icon={{
                   url: "https://img.icons8.com/plasticine/100/garage.png",
-                  scaledSize: new window.google.maps.Size(40, 40),
+                  scaledSize: new window.google.maps.Size(60, 60),
                 }}
                 label={{
                   text: "Depot",

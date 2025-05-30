@@ -385,7 +385,7 @@ const ClientPortal: React.FC = () => {
                       {new Date(bin.createdAt).toLocaleString()}
                     </span>
                   </div>
-                  <p className="mt-1 text-gray-700">{bin.location}</p>
+                  {/* <p className="mt-1 text-gray-700">{bin.location}</p> */}
                   <p className="mt-1 font-semibold">
                     ♻️ Waste: {bin.amount} kg
                   </p>
